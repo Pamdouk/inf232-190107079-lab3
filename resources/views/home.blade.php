@@ -123,7 +123,7 @@ button:active{
      <div class="text-container">
          <p>Hello,</p>
          <p>I'm Kamila Intykbayeva</p>
-         <p>Student & Bum :)</p>
+         <p>Student</p>
          <button class="hire-btn">Hire me</button>
          <button class="down-cv">Download CV</button>
      </div>
