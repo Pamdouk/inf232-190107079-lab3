@@ -93,9 +93,9 @@ font-size: 16px;
      <nav>
       <a href="#" class="logo">My CV Website</a>
       <ul>
-          <li><a href="{{ route('Home' )}}" class="active">Home</a></li>
-          <li><a href="{{ route('about') }}">About</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="{{ route('Home' )}}" class="active">{{__('lang.home')}}</a></li>
+          <li><a href="{{ route('about') }}">{{__('lang.about')}}</a></li>
+          <li><a href="#">{{__('lang.contacts')}}</a></li>
       </ul>
 
      </nav>

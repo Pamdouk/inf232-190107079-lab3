@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use App\Models\Post;
 use App\Http\Controllers\BlogController;
+use Illuminate\Support\Facades\App;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,5 +47,19 @@ Route::post('/blog/create', [BlogController::class, 'store'])->name('add-blog');
 
 Route::get('/post/{id}', [BlogController::class, 'get_post']);
 
+Route::get('home/{lang}', function ($lang){
+App::setlocale($lang);
+return view('home');
+});
+
+Route::get('about/{lang}', function ($lang){
+    App::setlocale($lang);
+    return view('about');
+    });
+
+    Route::get('contacts/{lang}', function ($lang){
+        App::setlocale($lang);
+        return view('contacts');
+        });
 
 

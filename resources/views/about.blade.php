@@ -93,19 +93,19 @@ font-size: 16px;
      <nav>
       <a href="#" class="logo">My CV Website</a>
       <ul>
-          <li><a href="{{ route('Home' )}}" class="active">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="{{ route('contacts') }}">Contacts</a></li>
+          <li><a href="{{ route('Home' )}}" class="active">{{__('lang.home')}}</a></li>
+          <li><a href="#">{{__('lang.about')}}</a></li>
+          <li><a href="{{ route('contacts') }}">{{__('lang.contacts')}}</a></li>
       </ul>
 
      </nav>
     </section>
     <div class="about-container">
        <div class="about-text">
-           <p>About Me</p>
-           <p>2nd year Student</p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi cum, possimus tenetur exercitationem sint facere earum aliquam ipsam, ducimus quas iure, pariatur inventore. Eligendi, voluptates rerum. Totam, dicta ea! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet at ab esse eius enim ipsam hic distinctio quidem et accusantium corrupti </p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quod ipsum rerum impedit, minima perspiciatis veritatis ad provident accusamus animi alias fugiat beatae offics! Dicta, architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum, eaque iusto omnis tempora esse repudiandae. .</p>
+           <p>{{__('lang.aboutme')}}</p>
+           <p>{{__('lang.info1')}}</p>
+           <p>{{__('lang.info2')}} </p>
+           <p>{{__('lang.info3')}}</p>
        </div>
     </div>
     </body>

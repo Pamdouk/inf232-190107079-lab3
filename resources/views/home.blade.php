@@ -114,18 +114,18 @@ button:active{
      <nav>
       <a href="#" class="logo">My CV Website</a>
       <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="{{ route('about') }}">About</a></li>
-          <li><a href="{{ route('contacts') }}">Contacts</a></li>
+          <li><a href="#" class="active">{{__('lang.home')}}</a></li>
+          <li><a href="{{ route('about') }}">{{__('lang.about')}}</a></li>
+          <li><a href="{{ route('contacts') }}">{{__('lang.contacts')}}</a></li>
       </ul>
 
      </nav>
      <div class="text-container">
-         <p>Hello,</p>
-         <p>I'm Kamila Intykbayeva</p>
-         <p>Student</p>
-         <button class="hire-btn">Hire me</button>
-         <button class="down-cv">Download CV</button>
+         <p>{{__('lang.hello')}}</p>
+         <p>{{__('lang.name')}}</p>
+         <p>{{__('lang.Student')}}</p>
+         <button class="hire-btn">{{__('lang.Hireme')}}</button>
+         <button class="down-cv">{{__('lang.CV')}}</button>
      </div>
    </section>
 
